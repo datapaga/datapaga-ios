@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'DataPaga_Example' do
+  pod 'DataPaga', :path => '../'
+
+
+
+  target 'DataPaga_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 1.2.0'
+    pod 'Nimble', '~> 7.0.2'
+  end
+end

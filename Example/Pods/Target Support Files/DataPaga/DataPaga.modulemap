@@ -1,0 +1,6 @@
+framework module DataPaga {
+  umbrella header "DataPaga-umbrella.h"
+
+  export *
+  module * { export * }
+}
