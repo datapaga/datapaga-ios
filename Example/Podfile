@@ -5,8 +5,6 @@ platform :ios, '11.0'
 target 'DataPaga_Example' do
   pod 'DataPaga', :path => '../'
 
-
-
   target 'DataPaga_Tests' do
     inherit! :search_paths
 

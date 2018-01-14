@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 
-DataPaga Library
+The DataPaga Library. Use this library to connect with DataPaga.
 
                        DESC
 

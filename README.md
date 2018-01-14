@@ -22,7 +22,7 @@ pod 'DataPaga'
 
 ## Author
 
-felixsolorzano, jonathan@elaniin.com
+DataPaga, dev@datapaga.com
 
 ## License
 
