@@ -35,5 +35,9 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+    <key>com.datapaga.api.secret</key>
+    <string>eEm5ERkCIT+cQvwLfbLfRDw8P8XREzpxCyvKXueCWX4=</string>
+    <key>com.datapaga.api.key</key>
+    <string>HSEK2ZZ71hSuK9sYU6D3</string>
 </dict>
 </plist>
