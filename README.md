@@ -49,10 +49,10 @@ In order to connect with DataPaga API you must provide an `API Key` and `API Sec
 Open your **Info.plist** as source code and add these lines before the closing `</dict>`:
 
 ```plist
-    <key>com.datapaga.api.key</key>
-	<string>YOUR_KEY</string>
-	<key>com.datapaga.api.secret</key>
-	<string>YOUR_SECRET</string>
+<key>com.datapaga.api.key</key>
+<string>YOUR_KEY</string>
+<key>com.datapaga.api.secret</key>
+<string>YOUR_SECRET</string>
 ```
 
 
@@ -127,7 +127,9 @@ DataPaga.transactions().getAllTransactions(page: 2) {
 ```
 
 #### Get Specific Transaction
-`func getTransaction(uuid: String, completionHandler completion: ((DataPagaObjectResponse<Transaction>) -> ())?) -> Void`
+```swift
+func getTransaction(uuid: String, completionHandler completion: ((DataPagaObjectResponse<Transaction>) -> ())?) -> Void
+```
 
 
 
@@ -145,7 +147,9 @@ DataPaga.transactions().getTransaction(uuid: "cd_2c3ceb62eedf3f50a8e8a825cc1cb7"
 ```
 
 #### Create Transaction
-`func createTransaction(charge: Charge, completionHandler completion: ((DataPagaObjectResponse<ChargeResponse>) -> ())?) -> Void`
+```swift
+func createTransaction(charge: Charge, completionHandler completion: ((DataPagaObjectResponse<ChargeResponse>) -> ())?) -> Void
+```
 
 For creating a transaction we require a `Charge` object, this has to be created on your side. 
 
@@ -163,7 +167,9 @@ DataPaga.transactions().createTransaction(charge: charge) {
 }
 ```
 #### Refund Transaction
-`func refundTransaction(details: Refund, completionHandler completion: ((DataPagaObjectResponse<Bool>)->())?) -> Void`
+```swift
+func refundTransaction(details: Refund, completionHandler completion: ((DataPagaObjectResponse<Bool>)->())?) -> Void
+```
 
 For refunding a transaction we require a `Refund` object, this has to be created on your side. 
 
@@ -210,7 +216,9 @@ DataPaga.cards().getAllCards(page: 3){
 ```
 
 #### Get Card Details
-`func getCardDetails(uuid: String, completionHandler completion: ((DataPagaObjectResponse<Card>)->())?) -> Void`
+```swift
+func getCardDetails(uuid: String, completionHandler completion: ((DataPagaObjectResponse<Card>)->())?) -> Void
+```
 
 ###### Response Handling Example
 ```swift
@@ -226,7 +234,9 @@ DataPaga.cards().getCardDetails(uuid: "cd_f012d2a52e1eb118e89fasdasdubiub") {
 ## Account
 
 #### Get Account Balance
-`func getBalance(completionHandler completion: ((DataPagaObjectResponse<Balance>)->())?)`
+```swift
+func getBalance(completionHandler completion: ((DataPagaObjectResponse<Balance>)->())?)
+```
 
 ###### Response Handling Example
 ```swift
