@@ -235,7 +235,7 @@ DataPaga.cards().getCardDetails(uuid: "cd_f012d2a52e1eb118e89fasdasdubiub") {
 
 #### Get Account Balance
 ```swift
-func getBalance(completionHandler completion: ((DataPagaObjectResponse<Balance>)->())?)
+func getBalance(completionHandler completion: ((DataPagaObjectResponse<Balance>)->())?) -> Void
 ```
 
 ###### Response Handling Example
