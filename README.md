@@ -1,6 +1,6 @@
 # DataPaga
 
-[![CI Status](http://img.shields.io/travis/datapaga/DataPaga.svg?style=flat)](https://travis-ci.org/datapaga/datapaga-ios)
+[![Build Status](https://travis-ci.org/datapaga/datapaga-ios.svg?branch=master)](https://travis-ci.org/datapaga/datapaga-ios)
 [![Version](https://img.shields.io/cocoapods/v/DataPaga.svg?style=flat)](http://cocoapods.org/pods/DataPaga)
 [![License](https://img.shields.io/cocoapods/l/DataPaga.svg?style=flat)](http://cocoapods.org/pods/DataPaga)
 [![Platform](https://img.shields.io/cocoapods/p/DataPaga.svg?style=flat)](http://cocoapods.org/pods/DataPaga)
